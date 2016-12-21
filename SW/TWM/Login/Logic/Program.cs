@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TWM.GUI;
 
-namespace Login
+namespace TWM.Logic
 {
-    static class Program
-    {
+    class Program
+    {      
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -17,6 +18,7 @@ namespace Login
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginFrm());
+            
         }
     }
 }

@@ -7,6 +7,11 @@ C:\TWM\TWM\TWM\Login\obj\Debug\Login.Properties.Resources.resources
 C:\TWM\TWM\TWM\Login\obj\Debug\TWM.csproj.GenerateResource.Cache
 C:\TWM\TWM\TWM\Login\obj\Debug\Login.exe
 C:\TWM\TWM\TWM\Login\obj\Debug\Login.pdb
+C:\TWM\TWM\SW\TWM\Login\obj\Debug\TWM.GUI.LoginFrm.resources
+C:\TWM\TWM\SW\TWM\Login\obj\Debug\TWM.csproj.GenerateResource.Cache
 C:\TWM\TWM\SW\TWM\Login\bin\Debug\Login.exe.config
+C:\TWM\TWM\SW\TWM\Login\bin\Debug\Login.exe
+C:\TWM\TWM\SW\TWM\Login\bin\Debug\Login.pdb
+C:\TWM\TWM\SW\TWM\Login\obj\Debug\Login.Properties.Resources.resources
 C:\TWM\TWM\SW\TWM\Login\obj\Debug\Login.exe
 C:\TWM\TWM\SW\TWM\Login\obj\Debug\Login.pdb

@@ -79,7 +79,28 @@
             this.txt_Password.Size = new System.Drawing.Size(260, 26);
             this.txt_Password.TabIndex = 3;
             this.txt_Password.UseSystemPasswordChar = true;
+            
             // 
+            // btn_Login
+            // 
+            this.btn_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Login.BackColor = System.Drawing.SystemColors.Window;
+            this.btn_Login.BackgroundImage = global::TWM.Properties.Resources.login;
+            this.btn_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btn_Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Login.Location = new System.Drawing.Point(365, 380);
+            this.btn_Login.Name = "btn_Login";
+            this.btn_Login.Size = new System.Drawing.Size(100, 100);
+            this.btn_Login.TabIndex = 3;
+            this.btn_Login.TabStop = false;
+            this.btn_Login.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_Login.UseVisualStyleBackColor = false;
+            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
+            // 
+// 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::TWM.Properties.Resources.nosee;
@@ -109,26 +130,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(290, 185);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            // 
-            // btn_Login
-            // 
-            this.btn_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Login.BackColor = System.Drawing.SystemColors.Window;
-            this.btn_Login.BackgroundImage = global::TWM.Properties.Resources.login;
-            this.btn_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.btn_Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Login.Location = new System.Drawing.Point(365, 380);
-            this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(100, 100);
-            this.btn_Login.TabIndex = 3;
-            this.btn_Login.TabStop = false;
-            this.btn_Login.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_Login.UseVisualStyleBackColor = false;
-            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
