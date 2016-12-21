@@ -52,10 +52,38 @@
     <Compile Include="GUI\LoginFrm.Designer.cs">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MaintenanceWorkUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\MaintenanceWorkUserControl.Designer.cs">
+      <DependentUpon>MaintenanceWorkUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RegularMaintenanceUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\RegularMaintenanceUserControl.Designer.cs">
+      <DependentUpon>RegularMaintenanceUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\WorkingHrsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\WorkingHrsUserControl.Designer.cs">
+      <DependentUpon>WorkingHrsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Login.cs" />
     <Compile Include="Logic\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\LoginFrm.resx">
       <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

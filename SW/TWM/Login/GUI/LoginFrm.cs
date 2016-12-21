@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TWM.Logic;
 
 namespace TWM.GUI
 {
@@ -19,7 +20,7 @@ namespace TWM.GUI
 
         private void btn_Login_Click(object sender, EventArgs e)
         {
-           /*Login LoginClass = new Login();
+            TWM.Logic.Login LoginClass = new TWM.Logic.Login();
             if (txt_UserName.Text == "" || txt_Password.Text == "")
             {
                 MessageBox.Show("Please provide UserName and Password");
@@ -30,9 +31,9 @@ namespace TWM.GUI
                 LoginClass.validatePassword("ddd");
                 MessageBox.Show("Login Successful!");
                 this.Hide();
-                //frmMain fm = new frmMain();
-                //fm.Show();
-            }*/
+                MainForm fm = new MainForm();
+                fm.Show();
+            }
         }
     }
 }
